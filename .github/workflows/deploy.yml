@@ -25,7 +25,7 @@ jobs:
       - name: Prepare Deployment Directory
         run: |
           mkdir -p deploy
-          cp ./target/wasm32-unknown-unknown/release/mapping-visualizer.wasm ./deploy/
+          cp ./target/wasm32-unknown-unknown/release/mapping_visualizer.wasm ./deploy/
           cp index.html deploy/
 
       - name: Deploy
