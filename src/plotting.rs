@@ -108,7 +108,7 @@ pub struct Settings {
 impl Settings {
     const TRANSITION_TIME: f32 = 2.0; // Seconds
     const GRID_DISTANCE_TIME: f32 = 2.0; // Seconds
-    const EPSILON: f64 = 1000.0;
+    const EPSILON: f64 = 10.0;
 }
 
 pub fn draw_frame(camera: &Camera, mappings: &[Mapping], settings: &Settings) {
